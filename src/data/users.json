@@ -5,5 +5,12 @@
     "password": "$2b$10$91y0kgk2zsyQiGhVhn/OQ.a7.iopNuj1ui9WGJF1Q9EnEtnYL3pay",
     "role": "client",
     "createdAt": "2026-08-07T14:42:59.279Z"
+  },
+  {
+    "id": "4fb39c86-faed-463a-a0e9-d4edcbb469f6",
+    "email": "batoulfakih1997@gmail.com",
+    "password": "$2b$10$EYVXTnr8ewHqDQskmGG6sOv2z8joG2DkoRuXEv0xGKZPCaQeU3j56",
+    "role": "client",
+    "createdAt": "2026-08-07T17:16:15.806Z"
   }
 ]

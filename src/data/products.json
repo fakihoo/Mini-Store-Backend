@@ -4,7 +4,7 @@
     "title": "Wireless Headphones",
     "description": "Over-ear wireless headphones with active noise cancellation, 30-hour battery life and a comfortable padded headband.",
     "price": 99.99,
-    "stock": 23,
+    "stock": 20,
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
     "public_id": "products/wireless-headphones",
     "variants": [
@@ -74,7 +74,7 @@
     "title": "Ceramic Coffee Mug",
     "description": "12oz dishwasher-safe ceramic mug with a comfortable handle and matte finish.",
     "price": 12.99,
-    "stock": 150,
+    "stock": 149,
     "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&h=500&fit=crop",
     "public_id": "products/ceramic-coffee-mug",
     "variants": []
@@ -131,7 +131,7 @@
     "title": "Laptop Backpack",
     "description": "Water-resistant backpack with a padded 15-inch laptop sleeve and USB charging port.",
     "price": 59.99,
-    "stock": 45,
+    "stock": 44,
     "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop",
     "public_id": "products/laptop-backpack",
     "variants": [
@@ -180,7 +180,7 @@
     "title": "Running Shoes",
     "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper.",
     "price": 119.99,
-    "stock": 50,
+    "stock": 49,
     "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
     "public_id": "products/running-shoes",
     "variants": [

@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "userId": "4fb39c86-faed-463a-a0e9-d4edcbb469f6",
+    "items": [
+      {
+        "id": "e5f44308-86be-4931-8d1a-2a2b45ac28d8",
+        "productId": "denim-jacket",
+        "quantity": 2,
+        "variants": {
+          "size": "M"
+        }
+      }
+    ]
+  }
+]

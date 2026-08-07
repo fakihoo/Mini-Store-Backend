@@ -15,7 +15,6 @@ src/
 ├── utils/        # Helper functions (logger, validators, ApiError)
 ├── app.js        # Express app setup
 └── server.js     # Server entry point
-tests/            # Unit & integration tests
 ```
 
 ## Getting started

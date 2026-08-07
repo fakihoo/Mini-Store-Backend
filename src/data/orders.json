@@ -16,5 +16,76 @@
     "total": 199.98,
     "status": "placed",
     "createdAt": "2026-08-07T16:35:23.227Z"
+  },
+  {
+    "id": "6b58bf6a-269d-41b0-8025-707e723114ec",
+    "userId": "4fb39c86-faed-463a-a0e9-d4edcbb469f6",
+    "items": [
+      {
+        "productId": "wireless-headphones",
+        "title": "Wireless Headphones",
+        "price": 99.99,
+        "quantity": 2,
+        "variants": {
+          "color": "Blue"
+        }
+      },
+      {
+        "productId": "wireless-headphones",
+        "title": "Wireless Headphones",
+        "price": 99.99,
+        "quantity": 1,
+        "variants": {
+          "color": "White"
+        }
+      },
+      {
+        "productId": "running-shoes",
+        "title": "Running Shoes",
+        "price": 119.99,
+        "quantity": 1,
+        "variants": {
+          "size": "39",
+          "color": "Blue"
+        }
+      }
+    ],
+    "total": 419.96,
+    "status": "placed",
+    "createdAt": "2026-08-07T17:26:28.035Z"
+  },
+  {
+    "id": "aee352a7-4c98-4e07-a190-1769a7d0d660",
+    "userId": "4fb39c86-faed-463a-a0e9-d4edcbb469f6",
+    "items": [
+      {
+        "productId": "laptop-backpack",
+        "title": "Laptop Backpack",
+        "price": 59.99,
+        "quantity": 1,
+        "variants": {
+          "color": "Grey"
+        }
+      }
+    ],
+    "total": 59.99,
+    "status": "placed",
+    "createdAt": "2026-08-07T19:30:13.639Z"
+  },
+  {
+    "id": "3e93545c-f5cc-477b-ac2b-3c8f84ef3831",
+    "userId": "4b6425fa-2f96-4047-bfb5-72218c87e93c",
+    "items": [
+      {
+        "productId": "ceramic-coffee-mug",
+        "title": "Ceramic Coffee Mug",
+        "price": 12.99,
+        "quantity": 1,
+        "variants": {}
+      }
+    ],
+    "total": 12.99,
+    "status": "placed",
+    "createdAt": "2026-08-07T20:23:58.631Z"
   }
 ]

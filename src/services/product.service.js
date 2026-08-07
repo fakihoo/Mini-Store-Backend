@@ -2,8 +2,53 @@ const store = require('../utils/fileStore');
 const productModel = require('../models/product.model');
 const ApiError = require('../utils/ApiError');
 
-function list() {
-    return store.read('products').map((product) => productModel.toPublic(product));
+function list({ page = 1, pageSize = 8, filter = '', size = '', color = '' } = {}) {
+    let products = store.read('products');
+
+    const query = String(filter).trim().toLowerCase();
+    if (query) {
+        products = products.filter((p) => {
+            const title = (p.title || '').toLowerCase();
+            const description = (p.description || '').toLowerCase();
+            return title.includes(query) || description.includes(query);
+        });
+    }
+
+    const hasVariant = (product, variantNames, value) => {
+        const normalizedValue = String(value).trim();
+        if (!normalizedValue) {
+            return false;
+        }
+        return (product.variants || []).some((v) => {
+            const name = (v.name || v.id || '').toLowerCase().replace(/\s+/g, '');
+            return variantNames.includes(name) && (v.values || []).includes(normalizedValue);
+        });
+    };
+
+    const sizeValue = String(size).trim();
+    if (sizeValue) {
+        products = products.filter((p) => hasVariant(p, ['size', 'bandsize'], sizeValue));
+    }
+
+    const colorValue = String(color).trim();
+    if (colorValue) {
+        products = products.filter((p) => hasVariant(p, ['color', 'framecolor'], colorValue));
+    }
+
+    const total = products.length;
+    const safePage = Math.max(1, parseInt(page, 10) || 1);
+    const safePageSize = Math.max(1, parseInt(pageSize, 10) || 10);
+    const totalPages = Math.ceil(total / safePageSize);
+    const start = (safePage - 1) * safePageSize;
+    const paginated = products.slice(start, start + safePageSize).map((p) => productModel.toPublic(p));
+
+    return {
+        products: paginated,
+        page: safePage,
+        pageSize: safePageSize,
+        total,
+        totalPages,
+    };
 }
 
 function getById(id) {
