@@ -87,5 +87,23 @@
     "total": 12.99,
     "status": "placed",
     "createdAt": "2026-08-07T20:23:58.631Z"
+  },
+  {
+    "id": "9e54211b-c52a-486a-8840-153b9696fff6",
+    "userId": "452abafc-a19e-4f05-953c-c569b5d45062",
+    "items": [
+      {
+        "productId": "mechanical-keyboard",
+        "title": "Mechanical Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "variants": {
+          "switch": "Red"
+        }
+      }
+    ],
+    "total": 89.99,
+    "status": "placed",
+    "createdAt": "2026-08-07T21:01:48.955Z"
   }
 ]

@@ -12,5 +12,19 @@
     "password": "$2b$10$EYVXTnr8ewHqDQskmGG6sOv2z8joG2DkoRuXEv0xGKZPCaQeU3j56",
     "role": "client",
     "createdAt": "2026-08-07T17:16:15.806Z"
+  },
+  {
+    "id": "50cbf162-5b6f-4886-a2f3-7f757743725e",
+    "email": "testing@gmail.com",
+    "password": "$2b$10$BfJ8DgctPf4PFsXRG08TPuxvipSsEqrchisQhyH7Qv7YCQ7ainvry",
+    "role": "client",
+    "createdAt": "2026-08-07T20:40:40.301Z"
+  },
+  {
+    "id": "452abafc-a19e-4f05-953c-c569b5d45062",
+    "email": "hasanwhf4@gmail.com",
+    "password": "$2b$10$r//nHFKPMWONRLqU7zurO.N1TSPcbAV28wUDU8XegIuO.0KveLXAG",
+    "role": "client",
+    "createdAt": "2026-08-07T20:50:46.380Z"
   }
 ]
