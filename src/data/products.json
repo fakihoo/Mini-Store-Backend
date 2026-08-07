@@ -1,179 +1,296 @@
 [
-    {
-        "id": "wireless-headphones",
-        "title": "Wireless Headphones",
-        "description": "Over-ear wireless headphones with active noise cancellation, 30-hour battery life and a comfortable padded headband.",
-        "price": 99.99,
-        "stock": 25,
-        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
-        "public_id": "products/wireless-headphones",
-        "variants": [
-            { "id": "color", "name": "Color", "values": ["Black", "White", "Blue"] }
+  {
+    "id": "wireless-headphones",
+    "title": "Wireless Headphones",
+    "description": "Over-ear wireless headphones with active noise cancellation, 30-hour battery life and a comfortable padded headband.",
+    "price": 99.99,
+    "stock": 23,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+    "public_id": "products/wireless-headphones",
+    "variants": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          "Black",
+          "White",
+          "Blue"
         ]
-    },
-    {
-        "id": "cotton-tshirt",
-        "title": "Cotton T-Shirt",
-        "description": "Soft 100% organic cotton t-shirt with a relaxed fit and double-stitched seams.",
-        "price": 19.99,
-        "stock": 100,
-        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
-        "public_id": "products/cotton-tshirt",
-        "variants": [
-            { "id": "size", "name": "Size", "values": ["S", "M", "L", "XL"] },
-            { "id": "color", "name": "Color", "values": ["Black", "White"] }
+      }
+    ]
+  },
+  {
+    "id": "cotton-tshirt",
+    "title": "Cotton T-Shirt",
+    "description": "Soft 100% organic cotton t-shirt with a relaxed fit and double-stitched seams.",
+    "price": 19.99,
+    "stock": 100,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+    "public_id": "products/cotton-tshirt",
+    "variants": [
+      {
+        "id": "size",
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
         ]
-    },
-    {
-        "id": "denim-jacket",
-        "title": "Denim Jacket",
-        "description": "Classic mid-wash denim jacket with button front and chest pockets. Pre-washed for extra softness.",
-        "price": 79.99,
-        "stock": 40,
-        "image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=500&h=500&fit=crop",
-        "public_id": "products/denim-jacket",
-        "variants": [
-            { "id": "size", "name": "Size", "values": ["S", "M", "L", "XL"] }
+      },
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          "Black",
+          "White"
         ]
-    },
-    {
-        "id": "ceramic-coffee-mug",
-        "title": "Ceramic Coffee Mug",
-        "description": "12oz dishwasher-safe ceramic mug with a comfortable handle and matte finish.",
-        "price": 12.99,
-        "stock": 150,
-        "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&h=500&fit=crop",
-        "public_id": "products/ceramic-coffee-mug",
-        "variants": []
-    },
-    {
-        "id": "smart-watch",
-        "title": "Smart Watch",
-        "description": "Fitness smart watch with heart rate tracking, GPS, and a 7-day battery life.",
-        "price": 149.99,
-        "stock": 30,
-        "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&h=500&fit=crop",
-        "public_id": "products/smart-watch",
-        "variants": [
-            { "id": "color", "name": "Color", "values": ["Black", "Silver"] },
-            { "id": "band-size", "name": "Band Size", "values": ["S", "M", "L"] }
+      }
+    ]
+  },
+  {
+    "id": "denim-jacket",
+    "title": "Denim Jacket",
+    "description": "Classic mid-wash denim jacket with button front and chest pockets. Pre-washed for extra softness.",
+    "price": 79.99,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=500&h=500&fit=crop",
+    "public_id": "products/denim-jacket",
+    "variants": [
+      {
+        "id": "size",
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
         ]
-    },
-    {
-        "id": "leather-wallet",
-        "title": "Leather Wallet",
-        "description": "Genuine leather bifold wallet with six card slots and a cash compartment.",
-        "price": 39.99,
-        "stock": 60,
-        "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
-        "public_id": "products/leather-wallet",
-        "variants": [
-            { "id": "color", "name": "Color", "values": ["Brown", "Black"] }
+      }
+    ]
+  },
+  {
+    "id": "ceramic-coffee-mug",
+    "title": "Ceramic Coffee Mug",
+    "description": "12oz dishwasher-safe ceramic mug with a comfortable handle and matte finish.",
+    "price": 12.99,
+    "stock": 150,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&h=500&fit=crop",
+    "public_id": "products/ceramic-coffee-mug",
+    "variants": []
+  },
+  {
+    "id": "smart-watch",
+    "title": "Smart Watch",
+    "description": "Fitness smart watch with heart rate tracking, GPS, and a 7-day battery life.",
+    "price": 149.99,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&h=500&fit=crop",
+    "public_id": "products/smart-watch",
+    "variants": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          "Black",
+          "Silver"
         ]
-    },
-    {
-        "id": "laptop-backpack",
-        "title": "Laptop Backpack",
-        "description": "Water-resistant backpack with a padded 15-inch laptop sleeve and USB charging port.",
-        "price": 59.99,
-        "stock": 45,
-        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop",
-        "public_id": "products/laptop-backpack",
-        "variants": [
-            { "id": "color", "name": "Color", "values": ["Grey", "Black"] }
+      },
+      {
+        "id": "band-size",
+        "name": "Band Size",
+        "values": [
+          "S",
+          "M",
+          "L"
         ]
-    },
-    {
-        "id": "mechanical-keyboard",
-        "title": "Mechanical Keyboard",
-        "description": "Tenkeyless mechanical keyboard with hot-swappable switches and RGB backlight.",
-        "price": 89.99,
-        "stock": 35,
-        "image": "https://images.unsplash.com/photo-1618384887929-78ec40d4e9a4?w=500&h=500&fit=crop",
-        "public_id": "products/mechanical-keyboard",
-        "variants": [
-            { "id": "switch", "name": "Switch", "values": ["Red", "Blue", "Brown"] }
+      }
+    ]
+  },
+  {
+    "id": "leather-wallet",
+    "title": "Leather Wallet",
+    "description": "Genuine leather bifold wallet with six card slots and a cash compartment.",
+    "price": 39.99,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+    "public_id": "products/leather-wallet",
+    "variants": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          "Brown",
+          "Black"
         ]
-    },
-    {
-        "id": "desk-lamp",
-        "title": "Desk Lamp",
-        "description": "Adjustable LED desk lamp with three brightness levels and a USB charging port.",
-        "price": 29.99,
-        "stock": 70,
-        "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&h=500&fit=crop",
-        "public_id": "products/desk-lamp",
-        "variants": []
-    },
-    {
-        "id": "running-shoes",
-        "title": "Running Shoes",
-        "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper.",
-        "price": 119.99,
-        "stock": 50,
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
-        "public_id": "products/running-shoes",
-        "variants": [
-            { "id": "size", "name": "Size", "values": ["39", "40", "41", "42", "43", "44"] },
-            { "id": "color", "name": "Color", "values": ["Grey", "Blue"] }
+      }
+    ]
+  },
+  {
+    "id": "laptop-backpack",
+    "title": "Laptop Backpack",
+    "description": "Water-resistant backpack with a padded 15-inch laptop sleeve and USB charging port.",
+    "price": 59.99,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop",
+    "public_id": "products/laptop-backpack",
+    "variants": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          "Grey",
+          "Black"
         ]
-    },
-    {
-        "id": "water-bottle",
-        "title": "Water Bottle",
-        "description": "BPA-free stainless steel water bottle that keeps drinks cold for 24 hours.",
-        "price": 18.99,
-        "stock": 120,
-        "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=500&fit=crop",
-        "public_id": "products/water-bottle",
-        "variants": [
-            { "id": "capacity", "name": "Capacity", "values": ["500ml", "750ml", "1L"] }
+      }
+    ]
+  },
+  {
+    "id": "mechanical-keyboard",
+    "title": "Mechanical Keyboard",
+    "description": "Tenkeyless mechanical keyboard with hot-swappable switches and RGB backlight.",
+    "price": 89.99,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1618384887929-78ec40d4e9a4?w=500&h=500&fit=crop",
+    "public_id": "products/mechanical-keyboard",
+    "variants": [
+      {
+        "id": "switch",
+        "name": "Switch",
+        "values": [
+          "Red",
+          "Blue",
+          "Brown"
         ]
-    },
-    {
-        "id": "notebook",
-        "title": "Notebook",
-        "description": "A5 dotted notebook with 192 pages of thick, bleed-resistant paper and a ribbon bookmark.",
-        "price": 8.99,
-        "stock": 200,
-        "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500&h=500&fit=crop",
-        "public_id": "products/notebook",
-        "variants": []
-    },
-    {
-        "id": "bluetooth-speaker",
-        "title": "Bluetooth Speaker",
-        "description": "Portable waterproof bluetooth speaker with 12-hour playtime and deep bass.",
-        "price": 49.99,
-        "stock": 55,
-        "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop",
-        "public_id": "products/bluetooth-speaker",
-        "variants": [
-            { "id": "color", "name": "Color", "values": ["Black", "Green"] }
+      }
+    ]
+  },
+  {
+    "id": "desk-lamp",
+    "title": "Desk Lamp",
+    "description": "Adjustable LED desk lamp with three brightness levels and a USB charging port.",
+    "price": 29.99,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&h=500&fit=crop",
+    "public_id": "products/desk-lamp",
+    "variants": []
+  },
+  {
+    "id": "running-shoes",
+    "title": "Running Shoes",
+    "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper.",
+    "price": 119.99,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+    "public_id": "products/running-shoes",
+    "variants": [
+      {
+        "id": "size",
+        "name": "Size",
+        "values": [
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44"
         ]
-    },
-    {
-        "id": "sunglasses",
-        "title": "Sunglasses",
-        "description": "Polarized sunglasses with UV400 protection and a lightweight frame.",
-        "price": 34.99,
-        "stock": 80,
-        "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop",
-        "public_id": "products/sunglasses",
-        "variants": [
-            { "id": "frame-color", "name": "Frame Color", "values": ["Black", "Tortoise"] }
+      },
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          "Grey",
+          "Blue"
         ]
-    },
-    {
-        "id": "power-bank",
-        "title": "Power Bank",
-        "description": "Fast-charging power bank with dual USB ports and LED battery indicator.",
-        "price": 44.99,
-        "stock": 65,
-        "image": "https://images.unsplash.com/photo-1609592429323-f4df08d8b9b9?w=500&h=500&fit=crop",
-        "public_id": "products/power-bank",
-        "variants": [
-            { "id": "capacity", "name": "Capacity", "values": ["10000mAh", "20000mAh"] }
+      }
+    ]
+  },
+  {
+    "id": "water-bottle",
+    "title": "Water Bottle",
+    "description": "BPA-free stainless steel water bottle that keeps drinks cold for 24 hours.",
+    "price": 18.99,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=500&fit=crop",
+    "public_id": "products/water-bottle",
+    "variants": [
+      {
+        "id": "capacity",
+        "name": "Capacity",
+        "values": [
+          "500ml",
+          "750ml",
+          "1L"
         ]
-    }
+      }
+    ]
+  },
+  {
+    "id": "notebook",
+    "title": "Notebook",
+    "description": "A5 dotted notebook with 192 pages of thick, bleed-resistant paper and a ribbon bookmark.",
+    "price": 8.99,
+    "stock": 200,
+    "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500&h=500&fit=crop",
+    "public_id": "products/notebook",
+    "variants": []
+  },
+  {
+    "id": "bluetooth-speaker",
+    "title": "Bluetooth Speaker",
+    "description": "Portable waterproof bluetooth speaker with 12-hour playtime and deep bass.",
+    "price": 49.99,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop",
+    "public_id": "products/bluetooth-speaker",
+    "variants": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          "Black",
+          "Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sunglasses",
+    "title": "Sunglasses",
+    "description": "Polarized sunglasses with UV400 protection and a lightweight frame.",
+    "price": 34.99,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop",
+    "public_id": "products/sunglasses",
+    "variants": [
+      {
+        "id": "frame-color",
+        "name": "Frame Color",
+        "values": [
+          "Black",
+          "Tortoise"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "power-bank",
+    "title": "Power Bank",
+    "description": "Fast-charging power bank with dual USB ports and LED battery indicator.",
+    "price": 44.99,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1609592429323-f4df08d8b9b9?w=500&h=500&fit=crop",
+    "public_id": "products/power-bank",
+    "variants": [
+      {
+        "id": "capacity",
+        "name": "Capacity",
+        "values": [
+          "10000mAh",
+          "20000mAh"
+        ]
+      }
+    ]
+  }
 ]

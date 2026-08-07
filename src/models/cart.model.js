@@ -45,6 +45,7 @@ function enrichWithProducts(items, products) {
             title: product.title,
             price: product.price,
             stock: product.stock,
+            image: product.image || null,
             subtotal,
         };
     });
