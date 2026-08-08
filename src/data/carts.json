@@ -15,18 +15,5 @@
   {
     "userId": "50cbf162-5b6f-4886-a2f3-7f757743725e",
     "items": []
-  },
-  {
-    "userId": "4b6425fa-2f96-4047-bfb5-72218c87e93c",
-    "items": [
-      {
-        "id": "ad6312b6-9e61-4a13-a830-3c80417efc33",
-        "productId": "wireless-headphones",
-        "quantity": 3,
-        "variants": {
-          "color": "White"
-        }
-      }
-    ]
   }
 ]

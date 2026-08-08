@@ -1,4 +1,4 @@
-# mini_store_backend
+# Mini Store Backend
 
 Express.js backend for a mini store.
 

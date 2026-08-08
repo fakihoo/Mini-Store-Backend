@@ -105,5 +105,31 @@
     "total": 89.99,
     "status": "placed",
     "createdAt": "2026-08-07T21:01:48.955Z"
+  },
+  {
+    "id": "9dc5cafb-f9fb-4c4d-a5cb-4d975990047b",
+    "userId": "4b6425fa-2f96-4047-bfb5-72218c87e93c",
+    "items": [
+      {
+        "productId": "smart-watch",
+        "title": "Smart Watch",
+        "price": 149.99,
+        "quantity": 2,
+        "variants": {
+          "color": "Black",
+          "band-size": "L"
+        }
+      },
+      {
+        "productId": "power-bank",
+        "title": "Power Bank",
+        "price": 44.99,
+        "quantity": 1,
+        "variants": {}
+      }
+    ],
+    "total": 344.97,
+    "status": "placed",
+    "createdAt": "2026-08-08T07:39:50.271Z"
   }
 ]
