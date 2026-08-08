@@ -2,9 +2,7 @@
 
 Express.js backend for a mini store.
 
-## Project structure
-
-```
+# Project structure
 src/
 ├── config/       # Environment & database configuration
 ├── controllers/  # Route handlers (request/response logic)
@@ -15,16 +13,14 @@ src/
 ├── utils/        # Helper functions (logger, validators, ApiError)
 ├── app.js        # Express app setup
 └── server.js     # Server entry point
-```
 
-## Getting started
+# Rinning the App
 
-```bash
+# Step 1
+navigate to the terminal
+
+# Step 2
 npm install
-npm run dev
-```
 
-## Scripts
-
-- `npm start` - run in production mode
-- `npm run dev` - run in development mode
+# Step 3 "Run the backend to port 8000"
+node ./src/server.js
