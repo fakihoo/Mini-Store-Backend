@@ -3,6 +3,7 @@
 Express.js backend for a mini store.
 
 # Project structure
+```
 src/
 ├── config/       # Environment & database configuration
 ├── controllers/  # Route handlers (request/response logic)
@@ -13,6 +14,7 @@ src/
 ├── utils/        # Helper functions (logger, validators, ApiError)
 ├── app.js        # Express app setup
 └── server.js     # Server entry point
+```
 
 # Rinning the App
 
